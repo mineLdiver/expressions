@@ -156,15 +156,4 @@ public interface ForwardingList<E> extends List<E> {
     default boolean addAll(Collection<? extends E> c) {
         return delegate().addAll(c);
     }
-
-    /** @noinspection EqualsWhichDoesntCheckParameterClass*/
-    @Override
-    default boolean equals(Object o) {
-        return delegate().equals(o);
-    }
-
-    @Override
-    default int hashCode() {
-        return delegate().hashCode();
-    }
 }
