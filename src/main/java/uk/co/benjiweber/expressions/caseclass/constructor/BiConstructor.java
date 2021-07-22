@@ -9,7 +9,7 @@ import uk.co.benjiweber.expressions.caseclass.constructor.reference.UniMatch;
 import java.util.function.BiFunction;
 
 public class BiConstructor<A,B,T> {
-    private BiFunction<A, B, T> constructor;
+    private final BiFunction<A, B, T> constructor;
 
     public BiConstructor(BiFunction<A, B, T> ctor) {
         this.constructor = ctor;

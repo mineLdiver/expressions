@@ -9,7 +9,7 @@ import uk.co.benjiweber.expressions.caseclass.constructor.reference.UniMatch;
 import java.util.function.Function;
 
 public class UniConstructor<A,T> {
-    private Function<A, T> constructor;
+    private final Function<A, T> constructor;
 
     public UniConstructor(Function<A, T> ctor) {
         this.constructor = ctor;

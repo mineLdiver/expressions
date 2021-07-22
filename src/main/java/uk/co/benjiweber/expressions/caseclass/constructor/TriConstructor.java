@@ -8,7 +8,7 @@ import uk.co.benjiweber.expressions.caseclass.constructor.reference.UniMatch;
 import uk.co.benjiweber.expressions.function.TriFunction;
 
 public class TriConstructor<A,B,C,T> {
-    private TriFunction<A, B, C, T> constructor;
+    private final TriFunction<A, B, C, T> constructor;
 
     public TriConstructor(TriFunction<A, B, C, T> ctor) {
         this.constructor = ctor;

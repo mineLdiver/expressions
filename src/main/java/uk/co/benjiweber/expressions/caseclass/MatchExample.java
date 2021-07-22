@@ -12,6 +12,7 @@ public class MatchExample {
 
         static Person person(String firstname, String lastname, Integer age) {
             abstract class PersonValue extends Value<Person> implements Person {}
+            //noinspection unchecked
             return new PersonValue() {
                 public String firstname() { return firstname; }
                 public String lastname() { return lastname; }
