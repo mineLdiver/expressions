@@ -4,13 +4,14 @@ import java.util.List;
 
 import static java.util.Arrays.asList;
 
-public interface EnhancedList<T> extends ForwardingList<T>, WithIndex<T> {
+public interface EnhancedList<E> extends ForwardingList<E>, WithIndex<E>, AddReturn<E> {
 
-    static <T> EnhancedList<T> enhancedList(T... values) {
+    @SafeVarargs
+    static <E> EnhancedList<E> enhancedList(E... values) {
         return enhance(asList(values));
     }
 
-    static <T> EnhancedList<T> enhance(List<T> list) {
+    static <E> EnhancedList<E> enhance(List<E> list) {
         return () -> list;
     }
 
