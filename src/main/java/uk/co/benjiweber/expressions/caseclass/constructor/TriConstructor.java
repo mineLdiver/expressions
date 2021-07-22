@@ -1,11 +1,11 @@
 package uk.co.benjiweber.expressions.caseclass.constructor;
 
 import uk.co.benjiweber.expressions.caseclass.MatchesAny;
-import uk.co.benjiweber.expressions.caseclass.constructor.references.BiMatch;
-import uk.co.benjiweber.expressions.caseclass.constructor.references.NoMatch;
-import uk.co.benjiweber.expressions.caseclass.constructor.references.TriMatch;
-import uk.co.benjiweber.expressions.caseclass.constructor.references.UniMatch;
-import uk.co.benjiweber.expressions.functions.TriFunction;
+import uk.co.benjiweber.expressions.caseclass.constructor.reference.BiMatch;
+import uk.co.benjiweber.expressions.caseclass.constructor.reference.NoMatch;
+import uk.co.benjiweber.expressions.caseclass.constructor.reference.TriMatch;
+import uk.co.benjiweber.expressions.caseclass.constructor.reference.UniMatch;
+import uk.co.benjiweber.expressions.function.TriFunction;
 
 public class TriConstructor<A,B,C,T> {
     private TriFunction<A, B, C, T> constructor;

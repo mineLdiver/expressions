@@ -1,7 +1,7 @@
 package uk.co.benjiweber.expressions;
 
 import org.junit.Test;
-import uk.co.benjiweber.expressions.exceptions.Exceptions;
+import uk.co.benjiweber.expressions.exception.Exceptions;
 
 import java.util.Optional;
 

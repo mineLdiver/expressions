@@ -1,10 +1,10 @@
 package uk.co.benjiweber.expressions;
 
 import org.junit.Test;
-import uk.co.benjiweber.expressions.properties.Named;
-import uk.co.benjiweber.expressions.properties.Property;
-import uk.co.benjiweber.expressions.properties.Readonly;
-import uk.co.benjiweber.expressions.properties.Writeonly;
+import uk.co.benjiweber.expressions.property.Named;
+import uk.co.benjiweber.expressions.property.Property;
+import uk.co.benjiweber.expressions.property.Readonly;
+import uk.co.benjiweber.expressions.property.Writeonly;
 
 import java.util.function.Consumer;
 import java.util.function.Supplier;
@@ -12,8 +12,8 @@ import java.util.function.Supplier;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotEquals;
 import static org.junit.Assert.assertNull;
-import static uk.co.benjiweber.expressions.properties.Property.get;
-import static uk.co.benjiweber.expressions.properties.Property.set;
+import static uk.co.benjiweber.expressions.property.Property.get;
+import static uk.co.benjiweber.expressions.property.Property.set;
 
 public class PropertyTest {
 

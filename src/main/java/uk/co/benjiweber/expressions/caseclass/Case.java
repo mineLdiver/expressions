@@ -1,10 +1,10 @@
 package uk.co.benjiweber.expressions.caseclass;
 
 import uk.co.benjiweber.expressions.EqualsHashcode;
-import uk.co.benjiweber.expressions.caseclass.constructor.references.BiMatch;
-import uk.co.benjiweber.expressions.caseclass.constructor.references.TriMatch;
-import uk.co.benjiweber.expressions.caseclass.constructor.references.UniMatch;
-import uk.co.benjiweber.expressions.functions.TriFunction;
+import uk.co.benjiweber.expressions.caseclass.constructor.reference.BiMatch;
+import uk.co.benjiweber.expressions.caseclass.constructor.reference.TriMatch;
+import uk.co.benjiweber.expressions.caseclass.constructor.reference.UniMatch;
+import uk.co.benjiweber.expressions.function.TriFunction;
 
 import java.util.ArrayList;
 import java.util.List;
